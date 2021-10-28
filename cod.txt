@@ -1,0 +1,20 @@
+#include <iostream>
+#include "windows.h"
+#define _USE_MATH_DEFINES
+#include <math.h>
+using namespace std;
+
+int main()
+{
+  /  SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int s, t, g, x;
+    cout << "введіть s" << endl;
+    cin >> s;
+    cout << "введіть t" << endl;
+    cin >> t;
+    cout << "введіть g" << endl;
+    cin >> g;
+    x = s * t + g;
+    cout << "в рулоні було " << x;
+}
