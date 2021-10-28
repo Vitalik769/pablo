@@ -1,4 +1,4 @@
-/*Change code*/
+/*Change cod*/
 #include <iostream>
 #include "windows.h"
 #define _USE_MATH_DEFINES
