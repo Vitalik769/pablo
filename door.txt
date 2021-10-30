@@ -1,0 +1,17 @@
+#include <iostream>
+#include "windows.h"
+using namespace std;
+int main()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int f, g, h, t;
+    cout << "Перевірити істинність висловлення: Кількість сотен більша ніж кількість десятків числа.";
+    cout << "\nВведіть число: ";
+    cin >> f;
+    g = (f % 1000) / 100;
+    h = (f / 10) % 10;
+    (g > h && g<=h) ? cout << "\n true " : cout << "\n false ";
+
+    system("pause");
+}
